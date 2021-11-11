@@ -1,8 +1,11 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 *{
-   paddinng:0;
+   padding:0;
    margin:0;
    box-sizing: border-box;
 }
@@ -39,6 +42,7 @@ const GlobalStyle = createGlobalStyle`
   --clr-red-light: hsl(360, 71%, 66%);
   --clr-green-dark: hsl(125, 67%, 44%);
   --clr-green-light: hsl(125, 71%, 66%);
+  --clr-blue:#4f4fee;
   --clr-black: #222;
   --clr-red-special: #b4345c;
   --clr-grey-special: #eae6eb;
@@ -49,6 +53,10 @@ const GlobalStyle = createGlobalStyle`
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   --max-width: 1170px;
   --fixed-width: 620px;
+}
+
+body{
+   font-family: 'Roboto', sans-serif;
 }
 
 `;
