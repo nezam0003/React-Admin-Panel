@@ -58,6 +58,13 @@ const GlobalStyle = createGlobalStyle`
 body{
    font-family: 'Roboto', sans-serif;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
 
 `;
 
