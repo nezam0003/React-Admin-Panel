@@ -1,6 +1,20 @@
 import React from "react";
 import styled from "styled-components";
-import { MdHome, MdTimeline, MdTrendingUp } from "react-icons/md";
+// import { Home } from "@mui/icons-material";
+import {
+  Home,
+  Timeline,
+  TrendingUp,
+  PermIdentity,
+  Storefront,
+  AttachMoney,
+  BarChart,
+  MailOutline,
+  DynamicFeed,
+  ChatBubbleOutline,
+  WorkOutline,
+  Report,
+} from "@mui/icons-material";
 
 const Sidebar = () => {
   return (
@@ -11,15 +25,15 @@ const Sidebar = () => {
             <h3 className="sidebar_title">dashboard</h3>
             <ul className="sidebar_list">
               <li className="sidebar_list_item">
-                <MdHome className="sidebar_icon" />
+                <Home className="sidebar_icon" />
                 Home
               </li>
               <li className="sidebar_list_item">
-                <MdTimeline className="sidebar_icon" />
+                <Timeline className="sidebar_icon" />
                 Analytics
               </li>
               <li className="sidebar_list_item">
-                <MdTrendingUp className="sidebar_icon" />
+                <TrendingUp className="sidebar_icon" />
                 Sales
               </li>
             </ul>
@@ -28,19 +42,19 @@ const Sidebar = () => {
             <h3 className="sidebar_title">Quick Menu</h3>
             <ul className="sidebar_list">
               <li className="sidebar_list_item">
-                <MdHome className="sidebar_icon" />
+                <PermIdentity className="sidebar_icon" />
                 Users
               </li>
               <li className="sidebar_list_item">
-                <MdTimeline className="sidebar_icon" />
+                <Storefront className="sidebar_icon" />
                 Products
               </li>
               <li className="sidebar_list_item">
-                <MdTrendingUp className="sidebar_icon" />
+                <AttachMoney className="sidebar_icon" />
                 Transictions
               </li>
               <li className="sidebar_list_item">
-                <MdTrendingUp className="sidebar_icon" />
+                <BarChart className="sidebar_icon" />
                 Reports
               </li>
             </ul>
@@ -49,15 +63,15 @@ const Sidebar = () => {
             <h3 className="sidebar_title">Notifications</h3>
             <ul className="sidebar_list">
               <li className="sidebar_list_item">
-                <MdHome className="sidebar_icon" />
+                <MailOutline className="sidebar_icon" />
                 Mail
               </li>
               <li className="sidebar_list_item">
-                <MdTimeline className="sidebar_icon" />
+                <ChatBubbleOutline className="sidebar_icon" />
                 Messages
               </li>
               <li className="sidebar_list_item">
-                <MdTrendingUp className="sidebar_icon" />
+                <DynamicFeed className="sidebar_icon" />
                 Feedback
               </li>
             </ul>
@@ -66,15 +80,15 @@ const Sidebar = () => {
             <h3 className="sidebar_title">Staff</h3>
             <ul className="sidebar_list">
               <li className="sidebar_list_item">
-                <MdHome className="sidebar_icon" />
+                <WorkOutline className="sidebar_icon" />
                 Manage
               </li>
               <li className="sidebar_list_item">
-                <MdTimeline className="sidebar_icon" />
+                <Timeline className="sidebar_icon" />
                 Analytics
               </li>
               <li className="sidebar_list_item">
-                <MdTrendingUp className="sidebar_icon" />
+                <Report className="sidebar_icon" />
                 Reports
               </li>
             </ul>
